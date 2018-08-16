@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.0-beta.5"
+    "electron": "^3.0.0-beta.5",
+    "mocha": "^5.2.0",
+    "spectron": "^3.8.0"
   },
   "dependencies": {
     "@octokit/rest": "^15.9.6",
