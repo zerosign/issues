@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@octokit/rest": "^15.9.6",
+    "marked": "^0.4.0",
     "micro": "^9.3.3",
     "micro-http-router": "^1.3.0",
     "node-fetch": "^2.2.0",
